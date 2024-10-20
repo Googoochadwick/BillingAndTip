@@ -90,10 +90,6 @@ def main():
 
             print()
             break
-def Rs_to_float(d):
-    d = d.replace("₹","")
-    d = float(d)
-    return(d)
 
 
 def percent_to_float(p):
